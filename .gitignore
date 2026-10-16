@@ -1,0 +1,9 @@
+data/raw/**
+!data/raw/.gitkeep
+.venv/
+__pycache__/
+
+# Generated locally by scripts/preprocessing.py and scripts/features.py - regenerate, don't commit
+data/cache/
+data/features/
+.ipynb_checkpoints/
